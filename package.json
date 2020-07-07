@@ -29,7 +29,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start:local": "react-app-env --env-file=environments/.env.production start",
+    "start:dev": "react-app-env --env-file=environments/.env.development start",
+    "build:prod": "react-app-env --env-file=environments/.env.production build",
+    "build:dev": "react-app-env --env-file=environments/.env.development build"
   },
   "eslintConfig": {
     "extends": "react-app"
